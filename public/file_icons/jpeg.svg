@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>jpg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="jpg">
+            <rect id="Rectangle-4-Copy-3" fill="#000000" opacity="0.049999997" x="0" y="0" width="40" height="40" rx="5"></rect>
+            <rect id="Rectangle-6" fill="#3B9C32" x="6" y="27" width="28" height="4"></rect>
+            <rect id="Rectangle-6" fill="#4990E2" x="6" y="9" width="28" height="6"></rect>
+            <rect id="Rectangle-6" fill="#42A5F5" transform="translate(20.000000, 20.000000) scale(1, -1) translate(-20.000000, -20.000000) " x="6" y="15" width="28" height="10"></rect>
+            <path d="M6,25 L22,25 L22,27 L6,27 L6,25 Z M6,23 L20,23 L20,25 L6,25 L6,23 Z M8,21 L18,21 L18,23 L8,23 L8,21 Z" id="Combined-Shape" fill="#9CACC1"></path>
+            <path d="M22,25 L34,25 L34,27 L22,27 L22,25 Z M20,23 L32,23 L32,25 L20,25 L20,23 Z M22,21 L30,21 L30,23 L22,23 L22,21 Z" id="Combined-Shape" fill="#5A7599"></path>
+            <rect id="Rectangle-6-Copy-7" fill="#FCFCFC" x="24" y="19" width="4" height="2"></rect>
+            <rect id="Rectangle-6-Copy-8" fill="#FFCA09" transform="translate(30.000000, 13.000000) scale(-1, -1) rotate(90.000000) translate(-30.000000, -13.000000) " x="28" y="11" width="4" height="4"></rect>
+            <rect id="Rectangle-6-Copy-5" fill="#9CABC1" x="10" y="19" width="6" height="2"></rect>
+            <rect id="Rectangle-6-Copy-5" fill="#FFFFFF" opacity="0.799999952" x="10" y="19" width="6" height="2"></rect>
+            <rect id="Rectangle-6-Copy-9" fill="#FFFFFF" x="16" y="11" width="6" height="2"></rect>
+            <rect id="Rectangle-6-Copy-6" fill="#FFFFFF" x="12" y="17" width="2" height="2"></rect>
+            <rect id="Rectangle-6-Copy-10" fill="#FFFFFF" x="20" y="13" width="4" height="2"></rect>
+            <rect id="Rectangle-6-Copy-11" fill="#FFFFFF" x="6" y="11" width="2" height="2"></rect>
+        </g>
+    </g>
+</svg>

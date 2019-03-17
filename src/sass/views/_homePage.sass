@@ -1,0 +1,151 @@
+.home-page
+  &__bg
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    background-image: url('../assets/img/home_bg.jpg')
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    z-index: 10
+  &__content
+    position: relative
+    z-index: 20
+    padding-top: 200px
+    color: #fff
+  &__heading
+    font-size: 48px
+    font-weight: 300
+    text-align: center
+    margin-bottom: 118px
+  &__buttons
+    display: flex
+    flex-direction: row
+    justify-content: center
+    margin-bottom: 122px
+  &__button
+    height: 48px
+    line-height: 46px
+    border: 1px solid rgba(#ffffff, .35)
+    border-radius: 6px
+    padding: 0 30px
+    margin: 0 15px
+    cursor: pointer
+    text-align: center
+    box-sizing: border-box
+    &-receive
+      min-width: 210px
+    +media-hover
+      background-color: #ffffff
+      color: rgba(#000, .8)
+  &__receiveInputHolder
+    width: 210px
+    margin: 0 15px
+    position: relative
+  &__receiveInput
+    height: 48px
+    width: 100%
+    border: 1px solid rgba(#ffffff, .35)
+    border-radius: 6px
+    padding: 0
+    box-sizing: border-box
+    background-color: transparent
+    padding: 0 22px
+    font-size: 16px
+    letter-spacing: 4px
+    color: #ffffff
+    font-weight: 500
+  &__receiveInputLabel
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    line-height: 48px
+    padding: 0 22px
+    display: block
+    font-size: 16px
+    letter-spacing: 4px
+    color: rgba(#fff, .5)
+    pointer-events: none
+    user-select: none
+    .transparent
+      opacity: 0
+  &__features
+    display: flex
+    flex-direction: row
+    justify-content: center
+    margin-bottom: 50px
+  &__feature
+    width: calc(15% - 10px)
+    min-width: 125px
+    max-width: 165px
+    margin: 0 6px
+    padding: 0 20px 20px
+    background-color: rgba(#fff, .06)
+    box-sizing: border-box
+    border-radius: 6px
+    cursor: pointer
+    +media-hover
+      background-color: rgba(#fff, .16)
+  &__featureIllWrapper
+    height: 80px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 10px
+  &__featureText
+    font-size: 13px
+    line-height: 16px
+    color: rgba(#fff, .8)
+    text-align: center
+  &__smart
+    max-width: 1234px
+    height: 480px
+    position: relative
+    border-radius: 8px
+    overflow: hidden
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,.5)
+    display: flex
+    flex-direction: column
+    justify-content: center
+  &__smartBg
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-image: url('../assets/img/bg-4.png')
+    background-size: cover
+    background-position: center
+    text-align: center
+    color: #fff
+  &__smartContent
+    position: relative
+    text-align: center
+    padding-top: 56px
+  &__smartHeading
+    font-size: 44px
+    line-height: 1.23
+    font-weight: 500
+    margin-bottom: 25px
+    span
+      display: block
+      font-weight: 300
+  &__smartSubheading
+    font-size: 22px
+    font-weight: 300
+    margin-bottom: 55px
+  &__smartLink
+    display: inline-block
+    height: 48px
+    line-height: 48px
+    background-color: #ffffff
+    color: #12273b
+    width: 180px
+    text-decoration: none
+    font-weight: 700
+    font-size: 22px
+    border-radius: 6px

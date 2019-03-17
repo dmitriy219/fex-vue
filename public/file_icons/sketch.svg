@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>sketch</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sketch">
+            <rect id="Rectangle-4-Copy-3" fill="#FFAE00" opacity="0.149999991" x="0" y="0" width="40" height="40" rx="5"></rect>
+            <g id="Sketch_logo_frame" transform="translate(7.000000, 8.000000)">
+                <g id="Group">
+                    <g id="Page-1">
+                        <g id="Sketch-Flat-Logo">
+                            <g id="Group">
+                                <g id="Base" transform="translate(0.000000, 1.000000)" fill="#FFAE00">
+                                    <polygon id="Polygon" transform="translate(12.500000, 11.086392) rotate(180.000000) translate(-12.500000, -11.086392) " points="12.5 2.84217094e-14 25 14.2362174 19.5850202 21.4287314 12.5 22.1727846 5.41497976 21.4287314 1.42108547e-14 14.2362174"></polygon>
+                                </g>
+                                <g id="Bottom-Back" transform="translate(0.000000, 8.936567)" fill="#EC6C00">
+                                    <polygon id="Polygon" transform="translate(12.500000, 7.118109) rotate(180.000000) translate(-12.500000, -7.118109) " points="12.5 -2.48689958e-14 25 14.2362174 3.55271368e-15 14.2362174"></polygon>
+                                </g>
+                                <g id="Bottom-Mid" transform="translate(5.060729, 8.936567)" fill="#FFAE00">
+                                    <polygon id="Polygon" transform="translate(7.439271, 7.118109) rotate(180.000000) translate(-7.439271, -7.118109) " points="7.43927126 -1.95399252e-14 14.8785425 14.2362174 -9.23705556e-14 14.2362174"></polygon>
+                                </g>
+                                <g id="Top-Mid" transform="translate(5.060729, 1.000000)" fill="#FFEFB4">
+                                    <polygon id="Polygon" transform="translate(7.439271, 3.968284) rotate(180.000000) translate(-7.439271, -3.968284) " points="7.43927126 7.93656719 14.8785425 1.89639453e-13 -1.26121336e-13 5.24025268e-14"></polygon>
+                                </g>
+                                <g id="Top-Side-Left" transform="translate(0.000000, 1.744053)" fill="#FFAE00">
+                                    <polygon id="Polygon" transform="translate(2.707490, 3.596257) rotate(180.000000) translate(-2.707490, -3.596257) " points="2.01616501e-13 7.19251401 2.78340081 3.57145523 5.41497976 1.3785192e-13 0.303643725 5.32907052e-15"></polygon>
+                                </g>
+                                <g id="Top-Side-Right" transform="translate(22.000000, 5.744053) scale(-1, 1) translate(-22.000000, -5.744053) translate(19.000000, 1.744053)" fill="#FFAE00">
+                                    <polygon id="Polygon" transform="translate(2.707490, 3.596257) rotate(180.000000) translate(-2.707490, -3.596257) " points="1.04805054e-13 7.19251401 2.78340081 3.57145523 5.41497976 1.3785192e-13 0.303643725 5.32907052e-15"></polygon>
+                                </g>
+                                <g id="Top-Left" transform="translate(5.060729, 1.000000)" fill="#FED305">
+                                    <polygon id="Polygon" transform="translate(3.719636, 3.968284) rotate(180.000000) translate(-3.719636, -3.968284) " points="7.08502024 7.19251401 7.43927126 -1.77635684e-15 -7.28306304e-14 7.93656719"></polygon>
+                                </g>
+                                <g id="Top-Right" transform="translate(11.892713, 0.049604)" fill="#FED305">
+                                    <polygon id="Polygon" transform="translate(4.326923, 4.918680) rotate(274.000000) translate(-4.326923, -4.918680) " points="7.69230769 8.14291047 8.0465587 0.950396455 0.607287449 8.88696364"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

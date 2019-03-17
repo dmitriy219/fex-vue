@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>png</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="5"></rect>
+        <polygon id="path-3" points="0 0 40 0 40 40 0 40"></polygon>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="png">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle-4-Copy-3" fill="#FFFFFF" opacity="0.049999997" xlink:href="#path-1"></use>
+            <g id="Group-2" opacity="0.488847373" mask="url(#mask-2)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Duplicate-control"></g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                    <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(0.000000, 8.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(0.000000, 16.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(0.000000, 24.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(0.000000, 32.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(8.000000, 0.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(8.000000, 8.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(8.000000, 16.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(8.000000, 24.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(8.000000, 32.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(16.000000, 0.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(16.000000, 8.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(16.000000, 16.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(16.000000, 24.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(16.000000, 32.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(24.000000, 0.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(24.000000, 8.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(24.000000, 16.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(24.000000, 24.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(24.000000, 32.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(32.000000, 0.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(32.000000, 8.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(32.000000, 16.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(32.000000, 24.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-4)" fill="#D8D8D8">
+                    <g transform="translate(32.000000, 32.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                        <rect id="Rectangle-Copy" x="4" y="4" width="4" height="4"></rect>
+                    </g>
+                </g>
+            </g>
+            <rect id="Rectangle-6" fill="#3B9C32" mask="url(#mask-2)" x="6" y="27" width="28" height="4"></rect>
+            <rect id="Rectangle-6" fill="#4990E2" mask="url(#mask-2)" x="6" y="9" width="28" height="6"></rect>
+            <rect id="Rectangle-6" fill="#42A5F5" mask="url(#mask-2)" transform="translate(20.000000, 20.000000) scale(1, -1) translate(-20.000000, -20.000000) " x="6" y="15" width="28" height="10"></rect>
+            <path d="M6,25 L22,25 L22,27 L6,27 L6,25 Z M6,23 L20,23 L20,25 L6,25 L6,23 Z M8,21 L18,21 L18,23 L8,23 L8,21 Z" id="Combined-Shape" fill="#9CACC1" mask="url(#mask-2)"></path>
+            <path d="M22,25 L34,25 L34,27 L22,27 L22,25 Z M20,23 L32,23 L32,25 L20,25 L20,23 Z M22,21 L30,21 L30,23 L22,23 L22,21 Z" id="Combined-Shape" fill="#5A7599" mask="url(#mask-2)"></path>
+            <rect id="Rectangle-6-Copy-7" fill="#FCFCFC" mask="url(#mask-2)" x="24" y="19" width="4" height="2"></rect>
+            <rect id="Rectangle-6-Copy-8" fill="#FFCA09" mask="url(#mask-2)" transform="translate(30.000000, 13.000000) scale(-1, -1) rotate(90.000000) translate(-30.000000, -13.000000) " x="28" y="11" width="4" height="4"></rect>
+            <rect id="Rectangle-6-Copy-5" fill="#9CABC1" mask="url(#mask-2)" x="10" y="19" width="6" height="2"></rect>
+            <rect id="Rectangle-6-Copy-5" fill="#FFFFFF" opacity="0.799999952" mask="url(#mask-2)" x="10" y="19" width="6" height="2"></rect>
+            <rect id="Rectangle-6-Copy-9" fill="#FFFFFF" mask="url(#mask-2)" x="16" y="11" width="6" height="2"></rect>
+            <rect id="Rectangle-6-Copy-6" fill="#FFFFFF" mask="url(#mask-2)" x="12" y="17" width="2" height="2"></rect>
+            <rect id="Rectangle-6-Copy-10" fill="#FFFFFF" mask="url(#mask-2)" x="20" y="13" width="4" height="2"></rect>
+            <rect id="Rectangle-6-Copy-11" fill="#FFFFFF" mask="url(#mask-2)" x="6" y="11" width="2" height="2"></rect>
+        </g>
+    </g>
+</svg>

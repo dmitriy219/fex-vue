@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>zip</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="zip">
+            <rect id="Rectangle-4-Copy-3" fill="#0E78E5" opacity="0.1" x="0" y="0" width="40" height="40" rx="5"></rect>
+            <g id="Archive_000000_-1" transform="translate(8.000000, 8.000000)">
+                <g id="Group">
+                    <rect id="Rectangle-path" fill="#90CAF9" x="0" y="0" width="24" height="24" rx="2"></rect>
+                    <rect id="Rectangle-path" fill="#1976D2" x="10" y="3" width="4" height="2"></rect>
+                    <rect id="Rectangle-path-Copy-2" fill="#1976D2" x="10" y="6" width="4" height="2"></rect>
+                    <rect id="Rectangle-path" fill="#1976D2" x="10" y="0" width="4" height="2"></rect>
+                    <path d="M14,9 L10,9 C10,9.1634671 9.98122075,9.33533645 9.98215081,9.5168328 C10,13 9,14.7339781 9,16 C9,17.5186875 10.4813125,19 12,19 C13.5186875,19 15,17.5186875 15,16 C15,14.625 14,13 14,9 Z M12,17.375 C11.241,17.375 10.625,16.7596875 10.625,16 C10.625,15.2403125 11.241,14.625 12,14.625 C12.759,14.625 13.375,15.2403125 13.375,16 C13.375,16.7596875 12.759,17.375 12,17.375 Z" id="Shape" fill="#3F51B5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+@import "./vendor/reset"
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=cyrillic-ext')
+
+$media-breakpoint: 980px
+
+html, body
+    height: 100%
+    font-family:  'Roboto', sans-serif
+
+.wd
+    width: 100%
+    min-width: 980px
+    max-width: 1600px
+    margin: 0 auto
+    padding: 0 110px
+    box-sizing: border-box
+
+input, textarea
+  &:focus
+    outline: none
+
+
+@mixin media-hover
+  transition: 250ms
+  @media screen and (min-width: $media-breakpoint)
+    &:hover
+      @content
+
+@import "./components/appHeader"
+@import "./views/homePage"
+@import "./views/objectView"

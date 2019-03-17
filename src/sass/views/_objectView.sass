@@ -1,0 +1,131 @@
+.object-view
+  padding-top: 70px
+
+
+.object-meta
+  background-color: #f5f5f5
+  &__topInner
+    display: flex
+    justify-content: space-between
+    padding: 16px 0
+    border-bottom: 1px solid #ececec
+  &__credentials
+    display: flex
+    justify-content: flex-start
+  &__qr
+    width: 40px
+    height: 40px
+    text-align: center
+    background-color: rgba(34,34,34,.06)
+    margin-right: 1px
+    border-radius: 4px 0 0 4px
+    img
+      width: 24px!important
+      position: relative
+      top: 8px
+  &__token
+    height: 40px
+    line-height: 40px
+    background-color: rgba(34,34,34,.06)
+    font-size: 14px
+    color: #333333
+    padding:  0 16px 0 8px
+    margin-right: 8px
+  &__copyLink
+    height: 40px
+    line-height: 38px
+    border: 1px solid #c9c9c9
+    box-sizing: border-box
+    font-size: 14px
+    padding: 0 24px 0 44px
+    border-radius: 4px
+    position: relative
+    cursor: pointer
+    opacity: .7
+    +media-hover
+      opacity: 1
+    img
+      position: absolute
+      left: 20px
+      top: 7px
+  &__options
+    display: flex
+    flex-direction: row
+  &__option
+    height: 40px
+    line-height: 40px
+    position: relative
+    padding-left: 30px
+    img
+      position: absolute
+      top: 7px
+      left: 0
+  &__bottom
+    padding: 16px 110px
+  &__post
+    width: 100%
+    height: 32px
+    background-color: transparent
+    border: none
+    font-size: 24px
+    color: #222
+    font-weight: 500
+
+.object-file
+  height: 48px
+  padding: 4px 0 4px 0
+  border-bottom: 1px solid #e1e1e1
+  display: flex
+  flex-direction: row
+  align-items: center
+  position: relative
+  box-sizing: border-box
+  &:before
+    content: ""
+    display: block
+    position: absolute
+    width: 50px
+    height: 100%
+    top: 0
+    left: -50px
+  &__handle
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    position: absolute
+    width: 50px
+    top: 0
+    left: -50px
+    display: none
+  &:hover
+    .object-file__handle
+      display: flex
+  &__icon
+    margin-right: 8px
+    height: 40px
+  &__name
+    width: 400px
+  &__size
+    font-size: 14px
+    color: rgba(#333, .6)
+  &__download, &__delete
+    border: 1px solid #c9c9c9
+    padding: 4px
+    border-radius: 4px
+    +media-hover
+      border-color: #333
+    img
+      position: relative
+      top: 2px
+      cursor: pointer
+  &__download
+    margin-left: auto
+  &__delete
+    margin-left: 4px
+  &__progress
+    position: absolute
+    top: 0
+    left: 0
+    height: 100%
+    background-color: rgba(#7ed320, .2)

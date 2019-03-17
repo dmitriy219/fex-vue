@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>jpg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="jpg">
+            <rect id="Rectangle-4-Copy-3" fill="#000000" opacity="0.049999997" x="0" y="0" width="40" height="40" rx="5"></rect>
+            <g id="Image-File_000000_-1" transform="translate(6.000000, 12.000000)" fill="#BCBCBC">
+                <path d="M22.9554656,0 C21.8822011,0 21.0121457,0.870053441 21.0121457,1.94331984 C21.0121457,3.01658623 21.8822011,3.88663968 22.9554656,3.88663968 C24.028732,3.88663968 24.8987854,3.01658623 24.8987854,1.94331984 C24.8987854,0.870053441 24.028732,0 22.9554656,0 Z M9.17004049,3.09716599 L7.77327935,4.43319838 L0,12.2064777 L2.79352227,15 L9.17004049,8.62348178 L13.6032389,13.0566802 L15,14.3927126 L16.3967611,13.0566802 L18.8866397,10.5668016 L23.3198381,15 L26.1133603,12.2064777 L20.2834008,6.37651822 L18.8866397,5.04048583 L17.4898785,6.37651822 L15,8.86639676 L10.5668016,4.43319838 L9.17004049,3.09716599 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
