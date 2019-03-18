@@ -1,5 +1,6 @@
 module.exports = {
   devServer: {
+    port: 80,
     disableHostCheck: true,
     proxy: {
       '^/j_': {
@@ -24,7 +25,7 @@ module.exports = {
         logLevel: 'info'
       },
       '^/upload': {
-        target: 'https://fs2.fex.net:8080/',
+        target: 'https://fs1.fex.net:8080/',
         changeOrigin: true
       }
     }

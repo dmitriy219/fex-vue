@@ -47,6 +47,9 @@ export default {
     token () {
       return this.$store.state.object.generalInfo.token
     },
+    fs () {
+      return this.$store.state.object.generalInfo.fs_upload[0]
+    },
     filesOrder: {
       get () {
         return this.$store.state.object.filesOrder
@@ -65,7 +68,7 @@ export default {
     },
     dropzoneOptions () {
       return {
-        url: '/upload/' + this.token,
+        url: this.fs + '/' + this.token,
         previewTemplate: '<div></div>'
       }
     }

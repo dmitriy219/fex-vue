@@ -9,6 +9,7 @@ import VueClipboard from 'vue-clipboard2'
 
 Vue.config.productionTip = false
 Vue.use(VueResource)
+Vue.http.options.credentials = true
 Vue.http.options.emulateJSON = true
 Vue.component(VueQrcode.name, VueQrcode)
 Vue.use(VueClipboard)
