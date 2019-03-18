@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-    port: 80,
+    port: 8080,
     disableHostCheck: true,
     proxy: {
       '^/j_': {
@@ -16,6 +16,10 @@ module.exports = {
         changeOrigin: true
       },
       '^/load': {
+        target: 'https://fex.net',
+        changeOrigin: true
+      },
+      '^/view': {
         target: 'https://fex.net',
         changeOrigin: true
       },

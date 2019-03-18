@@ -4,7 +4,7 @@
     <div class="wd home-page__content">
       <h1 class="home-page__heading">File storage and transfer service</h1>
       <div class="home-page__buttons">
-        <div class="home-page__button ">Transfer files</div>
+        <div class="home-page__button" @click="createObject">Transfer files</div>
         <div class="home-page__button home-page__button-receive" v-if="!receiveInputVisible" @click="setReceiveInputVisibility(true)">Receive files</div>
         <div class="home-page__receiveInputHolder" v-else>
           <input type="tel" autocomplete="off" placeholder="" name="hash" class="home-page__receiveInput" id="get_inp_main" maxlength="12" v-model="token" @keypress="isNumber">
@@ -96,6 +96,9 @@ export default {
       } else {
         return true
       }
+    },
+    createObject () {
+      this.$store.dispatch('object/createObject')
     }
   }
 }

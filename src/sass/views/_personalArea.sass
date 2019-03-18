@@ -1,0 +1,62 @@
+.personal-area
+  padding-top: 90px
+  min-height: 100%
+  padding-bottom: 32px
+  background-color: #f0f0f0
+  &__nav
+    display: flex
+    justify-content: center
+    margin-bottom: 32px
+    height: 40px
+    position: relative
+  &__tab
+    margin: 0 16px
+    font-size: 24px
+    font-weight: 300
+    padding-bottom: 8px
+    cursor: pointer
+    &-active
+      border-bottom: 1px solid #333
+      pointer-events: none
+  &__logout
+    position: absolute
+    top: 0
+    right: 0
+    padding: 0 8px
+    height: 40px
+    line-height: 40px
+    background-color: rgba(#fb3635, .3)
+    color: #fff
+    border-radius: 4px
+    cursor: pointer
+    +media-hover
+      background-color: #fb3635
+
+.personal-objects
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  flex-wrap: wrap
+
+.personal-object
+  width: calc(100% / 3 - 10px)
+  margin-right: 15px
+  box-sizing: border-box
+  padding: 8px 16px
+  background-color: #ffffff
+  box-shadow: 0 2px 8px 0 rgba(34,34,34,.06)
+  margin-bottom: 16px
+  text-decoration: none
+  color: #333
+  &:nth-child(3n+3)
+    margin-right: 0
+  &__title
+    font-size: 16px
+    line-height: 24px
+    font-weight: 500
+  &__meta
+    height: 20px
+    line-height: 20px
+    font-size: 12px
+    colot: rgba(#000, .6)
+

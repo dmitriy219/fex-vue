@@ -9,7 +9,7 @@
         @vdropzone-files-added="onFilesAdded"
         @vdropzone-success="onFileLoaded"
         @vdropzone-upload-progress="onUploadProgress">
-        <div>
+        <div class="object-uploads__container">
           <div @click.stop>
               <vue-draggable v-model="filesOrder" @end="onDragEnd" handle=".object-file__handle">
                 <object-file :file="filesByID[fileID]" :token="token" v-for="fileID in filesOrder" :key="fileID"></object-file>
@@ -17,7 +17,10 @@
               <object-upload v-for="uuid in uploads_order" :upload="uploadsByUUID[uuid]" :token="token" :key="uuid"></object-upload>
               <!-- <div v-for="uuid in uploads_order" :key="uuid" @click="debugUpload(uploadsByUUID[uuid])">{{ uploadsByUUID[uuid].upload.progress }}% {{ uploadsByUUID[uuid].upload.filename }}</div> -->
           </div>
-          <button>Add files</button>
+          <div class="object-uploads__add">
+            <img src="@/assets/img/cloud.svg" alt="">
+            Upload files
+          </div>
         </div>
       </drop-zone>
     </div>
@@ -68,7 +71,7 @@ export default {
     },
     dropzoneOptions () {
       return {
-        url: this.fs + '/' + this.token,
+        url: '/upload' + '/' + this.token,
         previewTemplate: '<div></div>'
       }
     }

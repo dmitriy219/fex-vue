@@ -71,6 +71,28 @@
     color: #222
     font-weight: 500
 
+.object-uploads
+  &__container
+    margin-top: 80px
+    position: relative
+    padding: 0 16px
+  &__add
+    position: absolute
+    top: -60px
+    height: 40px
+    line-height: 40px
+    background-color: rgba(#3ba3fb, .8)
+    padding: 0 16px
+    border-radius: 4px
+    color: #ffffff
+    cursor: pointer
+    +media-hover
+      background-color: #3ba3fb
+    img
+      position: relative
+      top: 6px
+      margin-right: 8px
+
 .object-file
   height: 48px
   padding: 4px 0 4px 0
@@ -80,6 +102,8 @@
   align-items: center
   position: relative
   box-sizing: border-box
+  &-uploading
+    opacity: .6
   &:before
     content: ""
     display: block
@@ -106,6 +130,13 @@
     height: 40px
   &__name
     width: 400px
+    text-decoration: none
+    color: #333
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    padding-right: 20px
+    box-sizing: border-box
   &__size
     font-size: 14px
     color: rgba(#333, .6)

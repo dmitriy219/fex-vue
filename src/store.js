@@ -8,19 +8,65 @@ const user = {
   namespaced: true,
   state: {
     generalInfo: null,
-    accountInfo: null
+    accountInfo: null,
+    assignedObjects: [],
+    assignedObjectsOffset: 0,
+    assignedObjectsCount: 0,
+    lastVisitedObjects: [],
+    lastVisitedObjectsOffset: 0,
+    lastVisitedObjectsCount: 0,
+    objectListLimit: 50
   },
   mutations: {
     setGeneralInfo (state, data) {
       state.generalInfo = data
+    },
+    concatAssignedObjects (state, list) {
+      state.assignedObjects = state.assignedObjects.concat(list)
+    },
+    replaceAssignedObjects (state, list) {
+      state.assignedObjects = list
+    },
+    concatLastVisitedObjects (state, list) {
+      state.lastVisitedObjects = state.lastVisitedObjects.concat(list)
+    },
+    replaceLastVisitedObjects (state, list) {
+      state.lastVisitedObjects = list
+    },
+    emptyGeneralInfo (state) {
+      state.generalInfo = null
     }
   },
   actions: {
-    getGeneralInfo ({ state, commit, rootState }) {
+    getGeneralInfo ({ commit }) {
       Vue.http.get('/j_index').then(response => {
         if (response.body.user) {
           commit('setGeneralInfo', response.body.user)
         }
+      })
+    },
+    getAssignedObjects ({ state, commit }, shouldReplace) {
+      Vue.http.post('/j_archive', { limit: state.objectListLimit, offset: state.assignedObjectsOffset }).then(response => {
+        if (shouldReplace) {
+          commit('replaceAssignedObjects', response.body.object_list)
+        } else {
+          commit('concatAssignedObjects', response.body.object_list)
+        }
+      })
+    },
+    getLastVisitedObjects ({ state, commit }, shouldReplace) {
+      Vue.http.post('/j_home', { limit: state.objectListLimit, offset: state.lastVisitedObjectsOffset }).then(response => {
+        if (shouldReplace) {
+          commit('replaceLastVisitedObjects', response.body.object_list)
+        } else {
+          commit('concatLastVisitedObjects', response.body.object_list)
+        }
+      })
+    },
+    logout ({ commit }) {
+      Vue.http.post('/signout').then(response => {
+        commit('emptyGeneralInfo')
+        Router.push('/')
       })
     }
   }
@@ -52,6 +98,11 @@ const object = {
     },
     setFilesByID (state, map) {
       state.filesByID = map
+    },
+    spliceFilesOrderByUploadID (state, uploadID) {
+      let index = state.filesOrder.indexOf(uploadID)
+      console.log(index)
+      state.filesOrder.splice(index, 1)
     }
   },
   actions: {
@@ -71,7 +122,7 @@ const object = {
           commit('setObjectLoaded', true)
           Router.push('/object/' + id)
         } else {
-          alert('NO SUCH OBJECT')
+          alert('Object is either not found or protected with password')
         }
       })
     },
@@ -80,6 +131,16 @@ const object = {
         if (response.body.result === 1) {
           commit('setObjectPost', post)
         }
+      })
+    },
+    createObject () {
+      Vue.http.post('/j_object_create').then(response => {
+        Router.push('/object/' + response.body.token)
+      })
+    },
+    deleteUpload ({ state, commit }, uploadID) {
+      Vue.http.post('/j_upload_delete/' + state.generalInfo.token + '/' + uploadID).then(response => {
+        commit('spliceFilesOrderByUploadID', uploadID)
       })
     }
   }

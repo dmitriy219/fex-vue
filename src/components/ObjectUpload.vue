@@ -1,5 +1,5 @@
 <template>
-  <div class="object-file">
+  <div class="object-file object-file-uploading">
     <img :src="icon" alt="" class="object-file__icon">
     <p class="object-file__name">{{ upload.name }}</p>
     <p class="object-file__size">{{ size }}</p>
@@ -16,7 +16,7 @@ export default {
     fileExt () {
       let fileNameSplit = this.upload.name.split('.')
       let ext = fileNameSplit[fileNameSplit.length - 1]
-      return ext
+      return ext.toLowerCase()
     },
     icon () {
       if (FileIcons[this.fileExt]) {
