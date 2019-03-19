@@ -11,6 +11,7 @@ export default {
     'object': Object
   },
   computed: {
+    // formats object size in bytes so it is human-readable
     size () {
       let suffixes = ['b', 'kB', 'MB', 'GB', 'TB']
       let index = 0

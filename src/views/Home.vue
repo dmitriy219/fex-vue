@@ -71,11 +71,14 @@ export default {
   name: 'home',
   data: () => {
     return {
+      // if true - 'Receive objects' button is hidden and token input is visible
       receiveInputVisible: false,
+      // object token entered by user
       token: ''
     }
   },
   watch: {
+    // if token is 12 symbols long - prfrorms API reqeust ot load object data
     token (val) {
       if (val.length === 12) {
         this.$store.dispatch('object/getGeneralInfo', val, () => {
@@ -85,9 +88,11 @@ export default {
     }
   },
   methods: {
+    // performed on click of "Receive files" button = shows token input
     setReceiveInputVisibility (flag) {
       this.receiveInputVisible = flag
     },
+    // checks if symbol entered into the token input is a digit. If not - prevents entering
     isNumber (evt) {
       evt = evt || window.event
       var charCode = (evt.which) ? evt.which : evt.keyCode
@@ -97,6 +102,7 @@ export default {
         return true
       }
     },
+    // performs API call to create object
     createObject () {
       this.$store.dispatch('object/createObject')
     }

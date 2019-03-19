@@ -28,26 +28,32 @@
 export default {
   data: () => {
     return {
+      // wheter object post has been changed, used to prevent no-op API requests
       shouldUpdatePost: false
     }
   },
   computed: {
+    // object data from Store
     objectData () {
       return this.$store.state.object.generalInfo
     },
+    // object's post, which can be etided
     post () {
       return this.objectData.post
     }
   },
   watch: {
+    // if the post is changed, sets shouldUpdatePost to true
     post () {
       this.shouldUpdatePost = true
     }
   },
   methods: {
+    // copies object link to clipboard
     copyLink () {
       this.$copyText('https://fex.net/' + this.objectData.token)
     },
+    // if the post has been changed, performs API request to update object post, in case of success - updates state.
     updatePost (e) {
       if (this.shouldUpdatePost) {
         this.$store.dispatch('object/saveObjectPost', this.objectData.post)

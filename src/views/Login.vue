@@ -30,6 +30,7 @@ export default {
     }
   },
   methods: {
+    // performs API call to sign user in
     signin () {
       this.$http.post('/signin', this.loginData).then(response => {
         this.$store.dispatch('user/getGeneralInfo')

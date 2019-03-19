@@ -29,32 +29,40 @@ export default {
   },
   data: () => {
     return {
+      // active tab in navigation panel - can be 'assignedObjects' or 'lastVisitedObjects'
       currentTab: 'assignedObjects'
     }
   },
   computed: {
+    // list of objects assigned to user
     assignedObjects () {
       return this.$store.state.user.assignedObjects
     },
+    // list of objects visited by user in the past time
     lastVisitedObjects () {
       return this.$store.state.user.lastVisitedObjects
     }
   },
   methods: {
+    // fetches assigned objects from API
     getAssignedObjects () {
       this.$store.dispatch('user/getAssignedObjects', true)
     },
+    // fetches last visited objects from API
     getLastVisitedObjects () {
       this.$store.dispatch('user/getLastVisitedObjects', true)
     },
+    // switches active tab to assigned objects and fethes them from API
     switchToAssignedObjects () {
       this.currentTab = 'assignedObjects'
       this.getAssignedObjects()
     },
+    // switches active tab to last visited objects and fethes them from API
     switchToLastVisitedObjects () {
       this.currentTab = 'lastVisitedObjects'
       this.getLastVisitedObjects()
     },
+    // performs logout API call
     logout () {
       this.$store.dispatch('user/logout')
     }

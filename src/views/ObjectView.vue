@@ -15,12 +15,15 @@ export default {
   },
   computed: {
     objectData () {
+      // object's general info
       return this.$store.state.object.generalInfo
     },
+    // condition to render view
     objectLoaded () {
       return this.$store.state.object.objectLoaded
     }
   },
+  // fetches object data from API
   created () {
     this.$store.dispatch('object/getGeneralInfo', this.$route.params.id)
   }

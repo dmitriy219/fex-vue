@@ -28,9 +28,11 @@
 <script>
 export default {
   computed: {
+    // user information, if null - login link is renedered, otherwise user data snippet is rendered
     user () {
       return this.$store.state.user.generalInfo
     },
+    // return first symbol of user's login for user data snippet
     loginFirstLetter () {
       return this.user.login[0]
     }

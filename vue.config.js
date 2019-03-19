@@ -25,8 +25,7 @@ module.exports = {
       },
       '^/show': {
         target: 'https://fex.net',
-        changeOrigin: true,
-        logLevel: 'info'
+        changeOrigin: true
       },
       '^/upload': {
         target: 'https://fs1.fex.net:8080/',
